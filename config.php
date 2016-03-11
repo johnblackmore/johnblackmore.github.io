@@ -13,7 +13,7 @@ return [
      *
      */
 
-    'enableBlog' => true,
+    'enableBlog' => false,
 
     /**
      * --------------------------------------------------------------------------
@@ -47,7 +47,12 @@ return [
      *
      */
 
-    'siteName' => 'Katana',
+    'siteName' => 'John Blackmore',
+    'siteDescription' => 'Software Architect, PHP Developer & Laravel Advocate. Coffee Addict, Drone Enthusiast. Based in Taunton, UK. Available for Freelance Work.',
+    'siteAuthor' => 'John Blackmore',
 
-    'siteDescription' => 'Yet another awesome site.',
+    'twitter' => 'http://twitter.com/johnblackmore',
+    'linkedIn' => 'https://uk.linkedin.com/in/johnblackmore',
+    'instagram' => 'https://www.instagram.com/johnblackmore/',
+    'github' => 'https://github.com/johnblackmore',
 ];

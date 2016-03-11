@@ -1,37 +1,45 @@
-@extends('_includes.base')
+@extends('_includes.content_page')
 
 @section('pageTitle', '- About')
+@section('header::image', 'about-me.jpg')
+@section('header::title', 'About Me')
+@section('header::tagline', 'Hello, is it me you&apos;re looking for?')
 
-@section('body')
+@section('content')
+    @markdown
+    ## About Me
 
-    <div class="wrapper m-t-30">
-        <div class="left-side">
-            @markdown
+    Hello, I’m John. I’m a web software developer with ten years of commercial experience in everything from brochure websites to eCommerce, Software as a Service (SaaS) online applications and small enterprise management systems.
 
-            # About
+    I mainly work in PHP with a particular passion for building web applications on the Laravel framework, although I also specialise in working on and modernising legacy PHP applications.
 
-            These are some quotes that I’ve picked up along the way. They have a lot of meaning to me, personally. And I think you can learn something from them. Something fucking good, lasting and true.
+    I’m available to hire for odd jobs and small projects and I’m happy to talk through your options with no obligation, so please get in touch.
 
-            > “There are no passengers on spaceship earth. We are all crew.”
-            > ― Marshall Mcluhan
-
-            There’s no free rides. When you’re living on this planet, you can’t just sit down and coast, expecting the rest of humanity to keep its eye on the ball for you. A life spent as a passenger, rather than someone contributing to making the world function, is a life wasted.
-
-            > “There are three things we cry for in life: things that are lost, things that are found, and things that are magnificent.”
-            > ― Douglas Coupland
-
-            This is what it means to be human. To feel overcome with emotion when we have to say goodbye, and when we experience discovery, and when we look out at the world and are suddenly struck by how incredible it is. When we cry for these things, we are truly fucking alive.
-
-            ---
-
-            Complete post: https://medium.com/life-learning/10-incredible-quotes-to-guide-your-life-355aab49fcf4
-
-            @endmarkdown
-        </div>
-
-        <div class="right-side">
-            @include('_includes.sidebar')
-        </div>
-    </div>
-
+    - Telephone: 07825 699380
+    - Email: [hello@johnblackmore.com](mailto:hello@johnblackmore.com)
+    @endmarkdown
 @stop
+
+{{--@section('body')--}}
+
+    {{--@include('_includes.intro_header')--}}
+
+    {{--<div class="container">--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">--}}
+                {{--@markdown--}}
+                {{--## About Me--}}
+
+                {{--Hello, I’m John. I’m a web software developer with ten years of commercial experience in everything from brochure websites to eCommerce, Software as a Service (SaaS) online applications and small enterprise management systems.--}}
+
+                {{--I mainly work in PHP with a particular passion for building web applications on the Laravel framework, although I also specialise in working on and modernising legacy PHP applications.--}}
+
+                {{--I’m available to hire for odd jobs and small projects and I’m happy to talk through your options with no obligation, so please get in touch.--}}
+
+                {{--- Telephone: 07825 699380--}}
+                {{--- Email: [hello@johnblackmore.com](mailto:hello@johnblackmore.com)--}}
+                {{--@endmarkdown--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--@stop--}}

@@ -1,49 +1,49 @@
-@extends('_includes.base')
+@extends('_includes.content_page')
 
-@section('body')
+@section('header::image', 'macbook-plant-phone.jpg')
+@section('header::title', $siteName)
+@section('header::tagline', $siteDescription)
 
-    <div class="welcome">
-        <div class="wrapper">
-            <h1>Welcome Home!</h1>
-            <span>{{ $siteDescription }}</span>
-        </div>
-    </div>
+@section('content')
+    @markdown
+    ## Welcome
 
+    I've not got a lot to say at the moment. This is mostly a scratchpad for my own thoughts, links to articles and projects.
 
-    <div class="wrapper">
-        <div class="left-side">
-            @markdown
+    ### Personal Website Links
 
-            Simplicity is the key to great user experiences. Create fewer features, but make them great instead of just good.
-            Show fewer elements, use simplistic styling to reduce cognitive load. Dare to say ‘No’ to prevent the core
-            functionality from being lost in the noise.
+    - [My Personal Site](http://johnblackmore.com)
+    - [My Tech Blog](http://j16e.com)
 
-            > Don’t go for ‘WOW’, go for ‘of course’
+    ### PHP Links
 
-            Never chase the **‘wow-effect’**. Product design succeeds when it solves the problem or need of our users in the best possible way.
-            Design the product effective & delightful. The reaction we are after from our users is “Of course, that is obvious”.
+    - [The League of Extraordinary Packages](https://thephpleague.com/)
+    - [PHP: The Right Way](http://www.phptherightway.com/)
+    - [PHP Framework Interop Group](http://www.php-fig.org/)
 
-            I wrote down some design _principles_ for our team to help us make design decisions:
+    ### Creative Commons Zero (No Copyright) Media
 
-            - Define the problem first
-            - Create more value by creating less
-            - Strive for consistency
-            - Focus the user on one primary action at a time
-            - Use your user’s language
-            - Minimize user input
-
-            ---
-
-            Check the complete post here:
-
-            https://medium.com/@WdeB/digital-product-design-principles-8bc9eb6c080c
-
-            @endmarkdown
-        </div>
-
-        <div class="right-side">
-            @include('_includes.sidebar')
-        </div>
-    </div>
-
+    - [Pixabay](https://pixabay.com/) - CC0 Images and Videos
+    - [Unsplash](https://unsplash.com/) - CC0 Images
+    - [BossFight.co](http://bossfight.co/) - CC0 Images
+    - [Pexels](https://www.pexels.com/) - CC0 Images
+    - [New Old Stock](http://nos.twnsnd.co/) - Public Domain Images
+    - [Public Domain Archive](http://publicdomainarchive.com/)
+    @endmarkdown
 @stop
+
+{{--@section('body')--}}
+
+    {{--@include('_includes.intro_header')--}}
+
+    {{--<div class="container">--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">--}}
+                {{--@markdown--}}
+
+                {{--@endmarkdown--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+
+{{--@stop--}}

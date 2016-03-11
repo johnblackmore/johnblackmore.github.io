@@ -1,9 +1,13 @@
-<div class="pagination">
+{{--<!-- Pager -->--}}
+<ul class="pager">
     @if($previousPage)
-        <a class="button is-primary" href="@url($previousPage)">Newer posts</a>
+    <li class="previous">
+        <a href="@url($previousPage)">&larr; Newer Posts</a>
+    </li>
     @endif
-
     @if($nextPage)
-        <a class="button is-primary" href="@url($nextPage)">Previous posts</a>
+    <li class="next">
+        <a href="@url($nextPage)">Previous Posts &rarr;</a>
+    </li>
     @endif
-</div>
+</ul>
