@@ -19,27 +19,3 @@
     - Email: [hello@johnblackmore.com](mailto:hello@johnblackmore.com)
     @endmarkdown
 @stop
-
-{{--@section('body')--}}
-
-    {{--@include('_includes.intro_header')--}}
-
-    {{--<div class="container">--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">--}}
-                {{--@markdown--}}
-                {{--## About Me--}}
-
-                {{--Hello, I’m John. I’m a web software developer with ten years of commercial experience in everything from brochure websites to eCommerce, Software as a Service (SaaS) online applications and small enterprise management systems.--}}
-
-                {{--I mainly work in PHP with a particular passion for building web applications on the Laravel framework, although I also specialise in working on and modernising legacy PHP applications.--}}
-
-                {{--I’m available to hire for odd jobs and small projects and I’m happy to talk through your options with no obligation, so please get in touch.--}}
-
-                {{--- Telephone: 07825 699380--}}
-                {{--- Email: [hello@johnblackmore.com](mailto:hello@johnblackmore.com)--}}
-                {{--@endmarkdown--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--@stop--}}
