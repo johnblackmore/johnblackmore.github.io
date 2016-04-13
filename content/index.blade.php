@@ -29,5 +29,17 @@
     - [Pexels](https://www.pexels.com/) - CC0 Images
     - [New Old Stock](http://nos.twnsnd.co/) - Public Domain Images
     - [Public Domain Archive](http://publicdomainarchive.com/)
+
+    ### Building Secure PHP Login Systems
+
+    - [The definitive guide to form-based website authentication](http://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication)
+    - [Implementing Secure User Authentication in PHP Applications with Long-Term Persistence](https://paragonie.com/blog/2015/04/secure-authentication-php-with-long-term-persistence)
+    - [Persistent Login Cookie Best Practice](http://fishbowl.pastiche.org/2004/01/19/persistent_login_cookie_best_practice/)
+
+    ### Password Complexity
+
+    - [zxcvbn: realistic password strength estimation](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/)
+    - [Password Strength xkcd](https://xkcd.com/936/) - Password entropy visualised
+    - [The Top 500 Worst Passwords of All Time](http://www.whatsmypass.com/the-top-500-worst-passwords-of-all-time)
     @endmarkdown
 @stop
