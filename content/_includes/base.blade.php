@@ -108,6 +108,14 @@
                         </a>
                     </li>
                     <li>
+                        <a href="{{$tumblr}}" class="link-tumblr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="{{$github}}" class="link-github">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>

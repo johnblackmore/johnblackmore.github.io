@@ -55,4 +55,5 @@ return [
     'linkedIn' => 'https://uk.linkedin.com/in/johnblackmore',
     'instagram' => 'https://www.instagram.com/johnblackmore/',
     'github' => 'https://github.com/johnblackmore',
+    'tumblr' => 'http://johnblackmore.tumblr.com',
 ];
