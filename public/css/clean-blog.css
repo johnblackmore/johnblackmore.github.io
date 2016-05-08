@@ -167,7 +167,7 @@ hr.small {
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
   font-size: 24px;
-  line-height: 1.1;
+  line-height: 1.3;
   display: block;
   font-family: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -395,4 +395,16 @@ body {
 }
 header > .image-mask{
   background: url(../img/image-mask.png) center center repeat;
+}
+a.link-twitter:hover {
+  color: #55acee;
+}
+a.link-linkedin:hover {
+  color: #007bb5;
+}
+a.link-instagram:hover {
+  color: #125688;
+}
+a.link-github:hover {
+  color: #000000;
 }

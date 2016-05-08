@@ -58,11 +58,14 @@
                     <a href="@url('about')">About Me</a>
                 </li>
                 <li>
-                    <a href="@url('laravel')">Laravel</a>
+                    <a href="@url('links')">Links</a>
                 </li>
                 <li>
-                    <a href="https://github.com/johnblackmore">Github</a>
+                    <a href="@url('laravel')">Laravel</a>
                 </li>
+                {{--<li>--}}
+                    {{--<a href="https://github.com/johnblackmore">Github</a>--}}
+                {{--</li>--}}
             </ul>
         </div>
         {{--<!-- /.navbar-collapse -->--}}
@@ -81,7 +84,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="{{$twitter}}">
+                        <a href="{{$twitter}}" class="link-twitter">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -89,7 +92,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{$linkedIn}}">
+                        <a href="{{$linkedIn}}" class="link-linkedin">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -97,7 +100,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{$instagram}}">
+                        <a href="{{$instagram}}" class="link-instagram">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
@@ -105,7 +108,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{$github}}">
+                        <a href="{{$github}}" class="link-github">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>

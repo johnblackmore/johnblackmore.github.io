@@ -8,39 +8,20 @@
     @markdown
     ## Welcome
 
-    I've not got a lot to say at the moment. This is mostly a scratchpad for my own thoughts, links to articles and projects.
+    Hi I'm John, although many people know me as just 'JB'. I'm a software developer based in Taunton, South-West England.
+    By day I work on PHP web applications as a developer and systems architect. I am also [available to hire](/about) to work on
+    a freelance basis in a consultant or developer capacity.
 
-    ### Personal Website Links
+    I have nearly 10 years of commercial experience building web applications in PHP, Python and Java. I have a keen
+    interest in building clean code and my niche is working with legacy PHP systems, refactoring, and introducing Modern PHP.
+    In my spare time I fly quadcopters (drones), tinker with [Arduino](https://www.arduino.cc/) and code on
+    [Raspberry Pis](https://www.raspberrypi.org/).
 
-    - [My Personal Site](http://johnblackmore.com)
-    - [My Tech Blog](http://j16e.com)
+    I've not got a lot more to say at the moment. This site is mostly a scratchpad for my own thoughts and consists
+    primarily of links to articles and projects that I find interesting.
 
-    ### PHP Links
+    Thanks for visiting!
 
-    - [The League of Extraordinary Packages](https://thephpleague.com/)
-    - [PHP: The Right Way](http://www.phptherightway.com/)
-    - [PHP Framework Interop Group](http://www.php-fig.org/)
-
-    ### Creative Commons Zero (No Copyright) Media
-
-    - [Pixabay](https://pixabay.com/) - CC0 Images and Videos
-    - [Unsplash](https://unsplash.com/) - CC0 Images
-    - [BossFight.co](http://bossfight.co/) - CC0 Images
-    - [Pexels](https://www.pexels.com/) - CC0 Images
-    - [New Old Stock](http://nos.twnsnd.co/) - Public Domain Images
-    - [Public Domain Archive](http://publicdomainarchive.com/)
-
-    ### Building Secure PHP Login Systems
-
-    - [The definitive guide to form-based website authentication](http://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication)
-    - [Implementing Secure User Authentication in PHP Applications with Long-Term Persistence](https://paragonie.com/blog/2015/04/secure-authentication-php-with-long-term-persistence)
-    - [Persistent Login Cookie Best Practice](http://fishbowl.pastiche.org/2004/01/19/persistent_login_cookie_best_practice/)
-    - [OWASP PHP Security Cheat Sheet](https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet)
-
-    ### Password Complexity
-
-    - [zxcvbn: realistic password strength estimation](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/)
-    - [Password Strength xkcd](https://xkcd.com/936/) - Password entropy visualised
-    - [The Top 500 Worst Passwords of All Time](http://www.whatsmypass.com/the-top-500-worst-passwords-of-all-time)
+    JB.
     @endmarkdown
 @stop
