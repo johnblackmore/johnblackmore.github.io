@@ -53,7 +53,6 @@
 @stop
 
 @section('scripts')
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <script src="@url('/js/readingTime.js')"></script>
     <script type="application/javascript">
         $(function () {

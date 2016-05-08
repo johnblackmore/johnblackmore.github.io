@@ -3,7 +3,7 @@
 @section('pageTitle', '- Blog')
 @section('header::image', 'macbook-code.jpg')
 @section('header::title', 'Blog Posts')
-@section('header::tagline', 'Here is some random shit I wrote')
+@section('header::tagline', 'Ramblings of a PHP Software Developer')
 
 @section('content')
     @foreach($paginatedBlogPosts as $post)

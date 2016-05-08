@@ -135,6 +135,8 @@
 <script src="@url('/js/bootstrap.min.js')"></script>
 {{--<!-- Custom Theme JavaScript -->--}}
 <script src="@url('/js/clean-blog.min.js')"></script>
+{{-- Google Code Prettify --}}
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 @yield('scripts')
 </body>
 </html>
