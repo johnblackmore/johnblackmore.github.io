@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Software Architect, PHP Developer &amp; Laravel Advocate. Coffee Addict, Drone Enthusiast. Based in Taunton, UK. Available for Freelance Work.">
 
-    <title>John Blackmore </title>
+    <title>John Blackmore - Nothing to See Here!</title>
 
         <link href="/css/bootstrap.min.css" rel="stylesheet">
             <link href="/css/clean-blog.css" rel="stylesheet">
@@ -56,39 +56,56 @@
             </div>
     </nav>
 
-
-    <header class="intro-header" style="background-image: url('/img/headers/macbook-plant-phone.jpg')">
+<header class="intro-header" style="background-image: url('img/headers/nanny-moo.jpg')">
     <div class="image-mask">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="page-heading">
-                        <h1>John Blackmore</h1>
-                        <hr class="small">
-                        <span class="subheading">Software Architect, PHP Developer & Laravel Advocate. Coffee Addict, Drone Enthusiast. Based in Taunton, UK. Available for Freelance Work.</span>
+                    <div class="post-heading">
+                        <h1>Nothing to See Here!</h1>
+                        <span class="meta">Posted on May 10, 2016 - <span class="eta"></span> read</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </header>
+
+<article>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h2>Welcome</h2>
-<p>Hi I'm John, although many people know me as just 'JB'. I'm a software developer based in Taunton, South-West England.
-By day I work on PHP web applications as a developer and systems architect. I am also <a href="/about">available to hire</a> to work on
-a freelance basis in a consultant or developer capacity.</p>
-<p>I have nearly 10 years of commercial experience building web applications in PHP, Python and Java. I have a keen
-interest in building clean code and my niche is working with legacy PHP systems, refactoring, and introducing Modern PHP.
-In my spare time I fly quadcopters (drones), tinker with <a href="https://www.arduino.cc/">Arduino</a> and code on
-<a href="https://www.raspberrypi.org/">Raspberry Pis</a>.</p>
-<p>I've not got a lot more to say at the moment. This site is mostly a scratchpad for my own thoughts and consists
-primarily of links to articles and projects that I find interesting.</p>
-<p>Thanks for visiting!</p>
-<p>JB.</p>            </div>
+                
+    <p>Just as the title says, there is nothing to see here.</p>
+<p>I've just not finished any articles yet.</p>
+<p>There will be content here soon I promised, and when that happens this page will not be here any more.</p>
+
+                <div id="disqus_thread"></div>
+                <script>
+                    /**
+                     * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                     * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                     */
+                    /*
+                     var disqus_config = function () {
+                     this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+                     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                     };
+                     */
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+
+                        s.src = '//johnblackmore.disqus.com/embed.js';
+
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </div>
         </div>
     </div>
+</article>
 
 <hr>
 
@@ -147,5 +164,11 @@ primarily of links to articles and projects that I find interesting.</p>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/clean-blog.min.js"></script>
 <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script src="/js/readingTime.js"></script>
+    <script type="application/javascript">
+        $(function () {
+            $('article').readingTime();
+        });
+    </script>
 </body>
 </html>
