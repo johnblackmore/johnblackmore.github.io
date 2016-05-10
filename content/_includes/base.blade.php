@@ -17,10 +17,7 @@
     <link href="@url('css/clean-blog.css')" rel="stylesheet">
     {{--<!-- Custom Fonts -->--}}
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    {{--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet" type="text/css">--}}
-    {{--<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>--}}
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300|Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    {{--<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>--}}
 
     {{--<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->--}}
     {{--<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->--}}
@@ -51,21 +48,18 @@
                 <li>
                     <a href="@url('/')">Home</a>
                 </li>
-                {{--<li>--}}
-                {{--<a href="@url('blog')">Blog</a>--}}
-                {{--</li>--}}
                 <li>
                     <a href="@url('about')">About Me</a>
                 </li>
                 <li>
-                    <a href="@url('links')">Links</a>
+                    <a href="@url('blog')">Blog</a>
                 </li>
                 <li>
                     <a href="@url('laravel')">Laravel</a>
                 </li>
-                {{--<li>--}}
-                    {{--<a href="https://github.com/johnblackmore">Github</a>--}}
-                {{--</li>--}}
+                <li>
+                    <a href="@url('links')">Links</a>
+                </li>
             </ul>
         </div>
         {{--<!-- /.navbar-collapse -->--}}
