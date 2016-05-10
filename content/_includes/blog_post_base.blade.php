@@ -4,7 +4,7 @@
 
 @section('body')
 {{--<!-- Page Header -->--}}
-<header class="intro-header" style="background-image: url('img/headers/@yield('header::image')')">
+<header class="intro-header" style="background-image: url('/img/headers/@yield('header::image')')">
     <div class="image-mask">
         <div class="container">
             <div class="row">
