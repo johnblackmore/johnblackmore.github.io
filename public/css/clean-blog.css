@@ -411,3 +411,6 @@ a.link-github:hover {
 a.link-tumblr:hover {
   color: #32506d;
 }
+p > img {
+  max-width: 100%;
+}
