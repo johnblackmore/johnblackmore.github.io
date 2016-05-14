@@ -11,12 +11,12 @@
     <title>{{$siteName}} @yield('pageTitle')</title>
 
     {{--<!-- Bootstrap Core CSS -->--}}
-    <link href="@url('/css/bootstrap.min.css')" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     {{--<!-- Custom CSS -->--}}
     {{--<link href="@url('css/clean-blog.min.css')" rel="stylesheet">--}}
     <link href="@url('css/clean-blog.css')" rel="stylesheet">
     {{--<!-- Custom Fonts -->--}}
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300|Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
     {{--<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->--}}
@@ -125,9 +125,9 @@
     </div>
 </footer>
 {{--<!-- jQuery -->--}}
-<script src="@url('/js/jquery.js')"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 {{--<!-- Bootstrap Core JavaScript -->--}}
-<script src="@url('/js/bootstrap.min.js')"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 {{--<!-- Custom Theme JavaScript -->--}}
 <script src="@url('/js/clean-blog.min.js')"></script>
 {{-- Google Code Prettify --}}
