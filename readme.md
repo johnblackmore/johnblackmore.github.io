@@ -1,3 +1,8 @@
+```
+git subtree push --prefix public origin master
+```
+
+
 # Katana static site & blog generator
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/themsaid/katana.svg?style=flat-square)](https://packagist.org/packages/themsaid/katana)
