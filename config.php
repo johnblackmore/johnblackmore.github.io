@@ -48,12 +48,14 @@ return [
      */
 
     'siteName' => 'John Blackmore',
-    'siteDescription' => 'Software Architect, PHP Developer & Laravel Advocate. Coffee Addict, Drone Enthusiast. Based in Taunton, UK. Available for Freelance Work.',
+    'siteDescription' => 'Digital Marketer, Software Architect, PHP Developer & Laravel Advocate. Coffee Addict, Drone Enthusiast. Based in Taunton, UK. Available for Freelance Work.',
     'siteAuthor' => 'John Blackmore',
+    'pageTitle' => 'John Blackmore',
 
     'twitter' => 'http://twitter.com/johnblackmore',
     'linkedIn' => 'https://uk.linkedin.com/in/johnblackmore',
     'instagram' => 'https://www.instagram.com/johnblackmore/',
     'github' => 'https://github.com/johnblackmore',
     'tumblr' => 'http://johnblackmore.tumblr.com',
+    'googleMaps' => 'https://www.google.co.uk/maps/contrib/107800284443701381974/',
 ];

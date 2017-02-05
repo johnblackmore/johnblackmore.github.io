@@ -1,6 +1,6 @@
 @extends('_includes.content_page')
 
-@section('pageTitle', '- Blog')
+@section('pageTitle', "Ramblings of a PHP Software Developer - John Blackmore's Blog")
 @section('header::image', 'macbook-code.jpg')
 @section('header::title', 'Blog Posts')
 @section('header::tagline', 'Ramblings of a PHP Software Developer')

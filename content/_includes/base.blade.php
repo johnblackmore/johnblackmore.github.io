@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{$siteDescription}}">
 
-    <title>{{$siteName}} @yield('pageTitle')</title>
+    <title>@yield('pageTitle')</title>
 
     {{--<!-- Bootstrap Core CSS -->--}}
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -88,7 +88,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="{{$twitter}}" class="link-twitter">
+                        <a href="{{$twitter}}" class="link-twitter" title="Twitter">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -96,7 +96,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </a>
                     </li>
                     <li>
-                        <a href="{{$linkedIn}}" class="link-linkedin">
+                        <a href="{{$linkedIn}}" class="link-linkedin" title="LinkedIn">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -104,7 +104,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </a>
                     </li>
                     <li>
-                        <a href="{{$instagram}}" class="link-instagram">
+                        <a href="{{$instagram}}" class="link-instagram" title="Instragram">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
@@ -112,7 +112,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </a>
                     </li>
                     <li>
-                        <a href="{{$tumblr}}" class="link-tumblr">
+                        <a href="{{$tumblr}}" class="link-tumblr" title="Tumblr">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
@@ -120,10 +120,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </a>
                     </li>
                     <li>
-                        <a href="{{$github}}" class="link-github">
+                        <a href="{{$github}}" class="link-github" title="Github">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{$googleMaps}}" class="link-googlemaps" title="Google Local Guides">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
                                 </span>
                         </a>
                     </li>

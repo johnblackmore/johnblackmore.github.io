@@ -1,5 +1,6 @@
 @extends('_includes.base')
 
+@section('pageTitle', $pageTitle)
 @section('header::image', 'candle-bokeh.jpg')
 @section('header::title', $siteName)
 @section('header::tagline', $siteDescription)

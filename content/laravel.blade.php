@@ -1,13 +1,13 @@
 @extends('_includes.content_page')
 
-@section('pageTitle', '- Laravel')
+@section('pageTitle', 'Laravel Resources for Web Artisans')
 @section('header::image', 'macbook-air.jpg')
 @section('header::title', 'Laravel Links')
 @section('header::tagline', 'The PHP Framework For Web Artisans')
 
 @section('content')
     @markdown
-    ## Laravel Links
+    ## Laravel Resources
 
     Over the years I've picked up links to a wide range of Laravel resources. I'm sharing them here so that I don't forget, but also
     so that others may benefit.

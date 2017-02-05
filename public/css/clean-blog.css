@@ -403,13 +403,16 @@ a.link-linkedin:hover {
   color: #007bb5;
 }
 a.link-instagram:hover {
-  color: #125688;
+  color: #c13584;
 }
 a.link-github:hover {
   color: #000000;
 }
 a.link-tumblr:hover {
   color: #32506d;
+}
+a.link-googlemaps:hover {
+  color: #db3236;
 }
 p > img {
   max-width: 100%;

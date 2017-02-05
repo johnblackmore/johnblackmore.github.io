@@ -4,7 +4,7 @@
 @section('post::title', 'Your Pa$$w0rd1 is weak!')
 @section('post::date', 'May 10, 2016')
 @section('post::brief', 'OK maybe it was, but so is your password policy')
-@section('pageTitle')- @yield('post::title')@stop
+@section('pageTitle')@yield('post::title') - John Blackmore Blog @stop
 
 @section('post_body')
 

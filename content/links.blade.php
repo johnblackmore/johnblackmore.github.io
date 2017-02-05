@@ -1,13 +1,14 @@
 @extends('_includes.content_page')
 
+@section('pageTitle', "John Blackmore's Useful Links for Web Developers")
 @section('header::image', 'candle-bokeh.jpg')
-@section('header::title', 'Useful Links')
+@section('header::title', 'Web Development Links')
 @section('header::tagline', 'I think you might like these.')
 
 @section('content')
     @markdown
     The links on this page are here as a reminder to myself. They are mostly links to resources I have
-    found to be useful or things I want to investigate further. I hope that they might be useful for others too.
+    found to be useful or things I want to investigate further. I hope that they might be useful for web developers like me, and others too.
 
     ### PHP Links
 
@@ -36,5 +37,10 @@
     - [zxcvbn: realistic password strength estimation](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/)
     - [Password Strength xkcd](https://xkcd.com/936/) - Password entropy visualised
     - [The Top 500 Worst Passwords of All Time](http://www.whatsmypass.com/the-top-500-worst-passwords-of-all-time)
+
+    ### My Other Websites
+
+    - [Hello JB: Online Digital Marketing](http://hellojb.uk)
+    - [Psswrd: Online Password Strength Tester](https://psswrd.xyz/)
     @endmarkdown
 @stop
