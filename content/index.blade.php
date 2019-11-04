@@ -10,7 +10,7 @@
     ## Welcome
 
     Hi I'm John, although many people know me as just 'JB'. I am a **freelance PHP and frontend software developer** based in
-    Taunton, United Kingdom. I am currently available to take on new projects.
+    Taunton, United Kingdom. [I am currently available to take on new projects](/about).
 
     I have over 20 years experience of building and maintaining websites and e-commerce applications, and over 10 years of commercial 
     experience building web applications for a wide range of industries. I have worked with companies in their startup stage to help define their product offering and establish product market fit. I have also worked with growth-stage companies to review and re-architect existing systems for _high traffic_ and deployment to multi-server _cloud infrastructures_.
