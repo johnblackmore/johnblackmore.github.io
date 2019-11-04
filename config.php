@@ -48,7 +48,7 @@ return [
      */
 
     'siteName' => 'John Blackmore',
-    'siteDescription' => 'Digital Marketer, Software Architect, PHP Developer & Laravel Advocate. Coffee Addict, Drone Enthusiast. Based in Taunton, UK. Available for Freelance Work.',
+    'siteDescription' => 'Freelance PHP Software Developer, Digital Marketer, Software Architect. Full-time remote worker based in Taunton, UK. Available to hire!',
     'siteAuthor' => 'John Blackmore',
     'pageTitle' => 'John Blackmore',
 

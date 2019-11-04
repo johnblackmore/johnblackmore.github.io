@@ -33,8 +33,6 @@
     * [Matt Stauffer](https://mattstauffer.co/) ([@stauffermatt](https://twitter.com/stauffermatt)) - Host of the [@LaravelPodcast](https://twitter.com/laravelpodcast)
     * [Adam Wathan](http://adamwathan.me/) ([@adamwathan](https://twitter.com/adamwathan)) - Host of the [@fullstackradio](https://twitter.com/fullstackradio) podcast
     * [Chris Fidao](http://fideloper.com/) ([@fideloper](https://twitter.com/fideloper)) - Creator of [Servers for Hackers](https://serversforhackers.com/)
-    * [Philip Brown](http://culttt.com/) ([@culttt](https://twitter.com/culttt)) - Excellent blog series on building [Cribbb](http://culttt.com/tag/cribbb/)
-    * [Christopher Pitt](https://medium.com/@assertchris) ([@assertchris](https://twitter.com/assertchris)) - [Rebuilding Laravel](https://medium.com/rebuilding-laravel) blog series
 
     @endmarkdown
 @stop

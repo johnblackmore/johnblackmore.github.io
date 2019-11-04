@@ -59,7 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <a href="@url('/')">Home</a>
                 </li>
                 <li>
-                    <a href="@url('about')">About Me</a>
+                    <a href="@url('about')">Hire Me!</a>
                 </li>
                 <li>
                     <a href="@url('blog')">Blog</a>
@@ -104,22 +104,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </a>
                     </li>
                     <li>
-                        <a href="{{$instagram}}" class="link-instagram" title="Instragram">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{$tumblr}}" class="link-tumblr" title="Tumblr">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                    <li>
                         <a href="{{$github}}" class="link-github" title="Github">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
@@ -136,7 +120,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; {{$siteAuthor}} 2016</p>
+                <p class="copyright text-muted">Copyright &copy; {{$siteAuthor}} 2019</p>
             </div>
         </div>
     </div>
