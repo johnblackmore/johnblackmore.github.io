@@ -39,22 +39,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    @include('_partials.bio')
+
                     @yield('post_body')
 
-                    <div id="disqus_thread"></div>
-                    <script>
-                        (function () {
-                            var d = document, s = d.createElement('script');
-
-                            s.src = '//johnblackmore.disqus.com/embed.js';
-
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                        })();
-                    </script>
-                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
-                                                                      rel="nofollow">comments powered by Disqus.</a>
-                    </noscript>
+                    @include('_partials.bio')
                 </div>
             </div>
         </div>
