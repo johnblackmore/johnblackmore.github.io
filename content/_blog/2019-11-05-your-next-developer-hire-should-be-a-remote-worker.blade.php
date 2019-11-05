@@ -2,8 +2,9 @@
 
 @section('header::image', 'macbook-code.jpg')
 @section('post::title', '5 Reasons why your next developer hire should be a remote worker')
-@section('post::date', 'Nov 5, 2019')
+@section('post::date', '2019-11-05')
 @section('post::brief', 'I believe many companies would thrive if they offered fully remote developer positions.')
+@section('post::published', 'November 5th, 2019')
 @section('pageTitle')@yield('post::title') - John Blackmore Blog @stop
 
 @section('post_body')
@@ -73,7 +74,7 @@ The points made above are based on my own experiences. When I started working re
 
 I previously worked in an office team that also used remote workers, but they did not embrace their remote workers as equals and left them out of meetings and discussions that happened in the office. As a result of this, we lost some excellent remote workers because they were badly managed. Luckily I kept in touch with some of these colleagues and talking with them inspired me to switch to fully remote working.
 
-One final point, or those who might be thinking, "I can't let my developers work remotely, I can't see what they are doing" I have a little secret for you... If you are worried about developers not working when they are not in the office, those developers are most likely not working while they are in the office! In nearly every conversation I've had with managers who trialled remote working and found their developers to be "slacking off" I also found those same managers having to micro-manage the same developers in the office.
+One final point, for those who might be thinking, "I can't let my developers work remotely, I can't see what they are doing" I have a little secret for you... If you are worried about developers not working when they are not in the office, those developers are most likely not working while they are in the office! In nearly every conversation I've had with managers who trialled remote working and found their developers to be "slacking off" I also found those same managers having to micro-manage the same developers in the office.
 
 In almost all cases, a developer who is working hard in the office without constant supervision will be absolutely fine working remotely without supervision. If you have concerns over remote worker productivity, consider getting new developers.
 

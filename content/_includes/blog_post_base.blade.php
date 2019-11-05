@@ -26,7 +26,7 @@
                         <div class="post-heading">
                             <h1>@yield('post::title')</h1>
                             <h2 class="subheading">@yield('post::brief')</h2>
-                            <span class="meta">Posted on @yield('post::date') - <span class="eta"></span> read</span>
+                            <span class="meta">Posted on @yield('post::published') - <span class="eta"></span> read</span>
                         </div>
                     </div>
                 </div>

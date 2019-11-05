@@ -6,7 +6,7 @@
 @section('header::tagline', 'Ramblings of a PHP Software Developer')
 
 @section('content')
-    @foreach($paginatedBlogPosts as $post)
+    @foreach(collect($paginatedBlogPosts)->sortByDesc('date') as $post)
         <div class="post-preview">
             <a href="@url($post->path)">
                 <h2 class="post-title">
@@ -16,7 +16,7 @@
                     {{ str_limit($post->brief, 130) }}
                 </h3>
             </a>
-            <p class="post-meta">Posted on {{ $post->date }}</p>
+            <p class="post-meta">Posted on {{ $post->published }}</p>
         </div>
         <hr>
     @endforeach
