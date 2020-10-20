@@ -16,6 +16,12 @@
     - [PHP: The Right Way](http://www.phptherightway.com/)
     - [PHP Framework Interop Group](http://www.php-fig.org/)
 
+    ### Cloud Design Patterns
+
+    - [Azure Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
+    - [Cloud Design Patterns - Explained Simply](https://levelup.gitconnected.com/cloud-design-patterns-explained-simply-113c788b33ff)
+    - [DZone Refcardz](https://dzone.com/refcardz)
+
     ### Creative Commons Zero (No Copyright) Media
 
     - [Pixabay](https://pixabay.com/) - CC0 Images and Videos

@@ -15,7 +15,7 @@
     ### Documentation and Learning
 
     * [Laravel Docs](https://laravel.com/docs)
-    * [Lumen Docs](https://lumen.laravel.com/docs)
+    * [Livewire](https://laravel-livewire.com/)
     * [Laracasts](https://laracasts.com/)
     * [Laravel.io Forum](http://laravel.io/forum)
     * [Larachat Slack Channel](http://larachat.co/)

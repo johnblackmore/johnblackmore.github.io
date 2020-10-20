@@ -27,8 +27,8 @@
     As a developer I mainly work in PHP with a particular passion for building web applications on the Laravel framework, although I also
     specialise in working on and modernising legacy PHP applications. Here are just some of the frameworks and technologies I use:
 
-    - **PHP Applications**: [Laravel Framework](https://laravel.com/), [Symfony Framework](https://symfony.com/), [Yii Framework](https://www.yiiframework.com/), [CodeIgniter](https://codeigniter.com/)
-    - **Frontend**: [Vue.js](https://vuejs.org/), [React](https://reactjs.org/), [jQuery](https://jquery.com/)
+    - **PHP Applications**: [Laravel Framework](https://laravel.com/), [Symfony Framework](https://symfony.com/), [CodeIgniter](https://codeigniter.com/)
+    - **Frontend**: [Livewire](https://laravel-livewire.com/), [Vue.js](https://vuejs.org/), [jQuery](https://jquery.com/)
     - **Other languages**: Node.js, Python, JavaScript
     - **Methodologies**: Microservices, Cloud Application Design Patterns, Twelve-Factor Apps, Event Sourcing, Message Queues
 
