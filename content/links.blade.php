@@ -27,7 +27,9 @@
     - [Pixabay](https://pixabay.com/) - CC0 Images and Videos
     - [Unsplash](https://unsplash.com/) - CC0 Images
     - [Pexels](https://www.pexels.com/) - CC0 Images
+    - [PxHere](https://pxhere.com/) - CC0 Images
     - [New Old Stock](http://nos.twnsnd.co/) - Public Domain Images
+    - [unDraw](https://undraw.co/illustrations) - Open-source Illustrations (not CC0, [license](https://undraw.co/license))
 
     ### Building Secure PHP Login Systems
 
