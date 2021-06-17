@@ -48,7 +48,7 @@ return [
      */
 
     'siteName' => 'John Blackmore',
-    'siteDescription' => 'Freelance PHP Software Developer, Digital Marketer, Software Architect. Full-time remote worker based in Taunton, UK. Available to hire!',
+    'siteDescription' => 'Freelance Software and Digital Marketing Consultant. PHP Software Development. Full-time remote working in West Somerset, UK.',
     'siteAuthor' => 'John Blackmore',
     'pageTitle' => 'John Blackmore',
 

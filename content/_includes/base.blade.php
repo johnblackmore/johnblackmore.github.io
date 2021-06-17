@@ -120,7 +120,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; {{$siteAuthor}} 2019</p>
+                <p class="copyright text-muted">Copyright &copy; {{$siteAuthor}} {{ date('Y') }}</p>
             </div>
         </div>
     </div>
