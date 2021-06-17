@@ -46,7 +46,7 @@
 
     ### Availability to Hire
 
-    Due to current demand, I am unable to take on new clients until around October 2021. However, I would be more than happy to discuss any requirements you might have, so please give me a call or send an email to see what I can do for you. Please note, I am a **remote worker based in Taunton**, Somerset working from my studio. I am not currently travelling to meet clients, although I'm happy to jump on a video call to discuss your proposal.
+    Due to current demand, I am unable to take on new clients until around October 2021. However, I would be more than happy to discuss any requirements you might have, so please give me a call or send an email to see what I can do for you. Please note, I am a remote worker based in West Somerset, working from my studio. I am not currently travelling to meet clients, although I'm happy to jump on a video call to discuss your proposal.
 
     - Telephone: 01823 240246
     - Email: [hello@johnblackmore.com](mailto:hello@johnblackmore.com)
