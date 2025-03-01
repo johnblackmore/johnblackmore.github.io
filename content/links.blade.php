@@ -45,6 +45,6 @@
 
     ### My Other Websites
 
-    - [Hello JB: Online Digital Marketing](http://hellojb.uk)
+    - [j16e: Banking on Laravel blog](http://j16e.com)
     @endmarkdown
 @stop

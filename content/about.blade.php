@@ -9,13 +9,14 @@
     @markdown
     ## About Me
 
-    Hello, I’m John. I am a **freelance software and digital marketing consultant**, and former PHP developer with over ten years of commercial experience in everything
+    Hello, I’m John. I am a **Laravel PHP developer** and **software development consultant** with over fifteen years of commercial experience in everything
     from brochure websites to eCommerce, Software as a Service (SaaS) online applications and small enterprise management systems. **I work remotely** from my studio in West Somerset, UK.
 
     ### Previous examples of work
 
     I have been lucky enough to work with some great companies, from startups to scale-ups and even some larger SMBs. During that time I have built some pretty interesting web applications including:
 
+    - A **payments processing platform** built using Open Banking technologies to process direct Account-to-Account (A2A) payments, also know as "Pay by bank".
     - A **crowdfunding platform** that processed over &pound;100 million in direct debit and credit card transactions in one year, providing growth-funding for over 300 small businesses throughout the UK.
     - An **online property rentals platform** that actively advertised and processed enquiries for up to 18,000 properties a year. The same platform also provided end-to-end tenancy creation and management for thousands of landlords each year.
     - An **insurance quote engine** used by a group of companies to quote and provide cover for thousands of tradespeople around the UK, offering several insurance products and combining over 30 risk factors to provide a unique quote for every customer.
@@ -24,11 +25,11 @@
 
     ### Technologies that I work with
 
-    I primarily act in a consultant or project management capacity for my clients, working with a number of trusted developers to deliver a quality product, working to realistic deadlines at realistic prices. As a former developer, I mainly work with PHP projects with a particular passion for building web applications on the Laravel framework, although I can also
+    I can act in a consultant or project management capacity for my clients, working with a number of trusted developers to deliver a quality product, working to realistic deadlines at competitive prices. I mainly work with PHP projects with a particular passion for building web applications on the Laravel framework, although I can also
     manage working on and modernising legacy PHP applications. Here are just some of the frameworks and technologies I have used:
 
     - **PHP Applications**: [Laravel Framework](https://laravel.com/), [Symfony Framework](https://symfony.com/), [CodeIgniter](https://codeigniter.com/)
-    - **Frontend**: [Livewire](https://laravel-livewire.com/), [Vue.js](https://vuejs.org/), [jQuery](https://jquery.com/)
+    - **Frontend**: [Livewire](https://laravel-livewire.com/), [Alpine.js](https://alpinejs.dev/), [Vue.js](https://vuejs.org/)
     - **Other languages**: Node.js, Python, JavaScript
     - **Methodologies**: Microservices, Cloud Application Design Patterns, Twelve-Factor Apps, Event Sourcing, Message Queues
 
@@ -46,9 +47,11 @@
 
     ### Availability to Hire
 
-    Due to current demand, I am unable to take on new clients until around October 2021. However, I would be more than happy to discuss any requirements you might have, so please give me a call or send an email to see what I can do for you. Please note, I am a remote worker based in West Somerset, working from my studio. I am not currently travelling to meet clients, although I'm happy to jump on a video call to discuss your proposal.
+    I am currently taking on new clients on a case-by-case basis. I would be more than happy to discuss any requirements you might have, so please give me a call or send an email to get started.
 
-    - Telephone: 01823 240246
+    - Telephone: 01823 249000
     - Email: [hello@johnblackmore.com](mailto:hello@johnblackmore.com)
+
+    Please note, I am a remote worker based in West Somerset, working from my studio. I am not currently travelling to meet clients, although I'm happy to jump on a video call to discuss your proposal.
     @endmarkdown
 @stop
