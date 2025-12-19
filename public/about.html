@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - John Blackmore</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: #f5f3f0;
+            color: #2d3436;
+            min-height: 100vh;
+            padding: 3rem 2rem;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: #5f8a8b;
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            transition: opacity 0.2s ease;
+        }
+        
+        .back-link:hover {
+            opacity: 0.7;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2d3436;
+        }
+        
+        .subtitle {
+            font-size: 1.125rem;
+            color: #636e72;
+            margin-bottom: 3rem;
+        }
+        
+        section {
+            margin-bottom: 3rem;
+        }
+        
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #5f8a8b;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.875rem;
+        }
+        
+        .experience-item,
+        .skill-group {
+            margin-bottom: 2rem;
+        }
+        
+        .experience-item:last-child,
+        .skill-group:last-child {
+            margin-bottom: 0;
+        }
+        
+        h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #2d3436;
+            margin-bottom: 0.25rem;
+        }
+        
+        .role-meta {
+            font-size: 0.9rem;
+            color: #636e72;
+            margin-bottom: 0.75rem;
+        }
+        
+        .company {
+            color: #5f8a8b;
+        }
+        
+        p {
+            color: #2d3436;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        li {
+            font-size: 0.95rem;
+            color: #2d3436;
+            margin-bottom: 0.5rem;
+            padding-left: 1.25rem;
+            position: relative;
+        }
+        
+        li:before {
+            content: '•';
+            color: #5f8a8b;
+            position: absolute;
+            left: 0;
+        }
+        
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+        
+        .skill-tag {
+            background: rgba(95, 138, 139, 0.1);
+            color: #2d3436;
+            padding: 0.4rem 0.9rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+        }
+        
+        .education-item {
+            margin-bottom: 1.5rem;
+        }
+        
+        .education-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .degree {
+            font-weight: 600;
+            color: #2d3436;
+        }
+        
+        .institution {
+            color: #636e72;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 640px) {
+            body {
+                padding: 2rem 1.5rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Home</a>
+        
+        <h1>John Blackmore</h1>
+        <p class="subtitle">Head of Technology</p>
+        
+        <section>
+            <h2>About</h2>
+            <p>Technology leader with 20+ years of professional experience building and architecting scalable web applications, specializing in PHP, Laravel, cloud infrastructure, and FinTech systems. Currently focused on Open Banking platforms, AI-assisted development, and leading high-performing engineering teams.</p>
+        </section>
+        
+        <section>
+            <h2>Experience</h2>
+            
+            <div class="experience-item">
+                <h3>Head of Technology</h3>
+                <p class="role-meta"><span class="company">Wonderful Payments Ltd / Asima</span> • February 2022 - Present</p>
+                <ul>
+                    <li>Leading development of Open Banking platform (wonderful.co.uk, asima.co.uk) built with Laravel, supporting Payment Initiation Service (PIS) and Account Information Services (AIS) with 90%+ UK bank coverage</li>
+                    <li>Pioneered AI-assisted development workflows using Claude Code, Amazon Kiro, and Gemini, achieving 5-10x improvement in project delivery times</li>
+                    <li>Led infrastructure migration from AWS to Google Cloud Platform, implementing Cloud Run containerization and VertexAI fraud detection pipeline</li>
+                    <li>Rebuilt development team, replacing offshore contractors with in-house developers and implementing modern CI/CD practices</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h3>Chief Technology Officer</h3>
+                <p class="role-meta"><span class="company">Twindig Ltd</span> • February 2020 - February 2022</p>
+                <ul>
+                    <li>Designed and developed Property Technology platform in Laravel from inception</li>
+                    <li>Built fault-tolerant cloud architecture with decoupled session management, Redis caching, event-driven design, and zero-downtime deployments</li>
+                    <li>Established remote-first engineering culture with Kanban workflows, peer reviews, and continuous integration practices</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h3>Head of Engineering</h3>
+                <p class="role-meta"><span class="company">Upad</span> • January 2017 - October 2019</p>
+                <ul>
+                    <li>Led fully remote development team, redesigning legacy systems for scale and reliability</li>
+                    <li>Architected new DigitalOcean cloud infrastructure with secure, fault-tolerant design</li>
+                    <li>Built provider-agnostic payment processing platform and integrated Onfido identity verification for KYC checks</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h3>Technical Architect / Development Manager</h3>
+                <p class="role-meta"><span class="company">Crowdcube</span> • January 2013 - February 2016</p>
+                <ul>
+                    <li>Architected payments system processing £100M+ in annual crowdfunding transactions using Direct Debit and card payments</li>
+                    <li>Led infrastructure migration from single server to distributed, load-balanced Rackspace cloud supporting 10,000+ simultaneous users</li>
+                    <li>Refactored application for horizontal scaling and introduced agile workflows, moving from Subversion to Git</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h3>Earlier Roles</h3>
+                <p class="role-meta">2007 - 2013</p>
+                <p>PHP Technical Lead at Invitation Digital, Development Manager at Evosite, and developer roles at BrightPearl, Webeurope, and Insured Risks Limited</p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-list">
+                <span class="skill-tag">PHP</span>
+                <span class="skill-tag">Laravel</span>
+                <span class="skill-tag">Open Banking</span>
+                <span class="skill-tag">AI/LLM Integration</span>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">Google Cloud</span>
+                <span class="skill-tag">Cloud Run</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Redis</span>
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">CI/CD</span>
+                <span class="skill-tag">VertexAI</span>
+                <span class="skill-tag">Payment Systems</span>
+                <span class="skill-tag">Team Leadership</span>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Education</h2>
+            <div class="education-item">
+                <p class="degree">BSc Computer Science, First Class Honours</p>
+                <p class="institution">Cardiff University School of Computer Science • 2007</p>
+            </div>
+            <div class="education-item">
+                <p class="degree">TQUK Level 2 Certificate in Principles of Team Leading</p>
+                <p class="institution">Lincoln College • 2024</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

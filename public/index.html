@@ -1,151 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Freelance Software and Digital Marketing Consultant. PHP Software Development. Full-time remote working in West Somerset, UK.">
-
-    <title>John Blackmore - Freelance Software and Digital Marketing Consultant</title>
-
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-            <link href="/css/clean-blog.css" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300|Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-
-            <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Blackmore</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: #f5f3f0;
+            color: #2d3436;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #2d3436;
+        }
+        
+        .tagline {
+            font-size: 1.125rem;
+            color: #636e72;
+            margin-bottom: 0.5rem;
+            font-weight: 400;
+        }
+        
+        .interests {
+            margin-bottom: 2.5rem;
+            font-size: 0.95rem;
+            color: #5f8a8b;
+        }
+        
+        .interests span {
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+        
+        .links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .tagline a,
+        .links a {
+            color: #2d3436;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+            position: relative;
+        }
+        
+        .tagline a:after,
+        .links a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            bottom: -2px;
+            left: 0;
+            background-color: #5f8a8b;
+            transition: width 0.6s ease;
+        }
+        
+        .tagline a:hover,
+        .links a:hover {
+            color: #5f8a8b;
+        }
+        
+        .tagline a:hover:after,
+        .links a:hover:after {
+            width: 100%;
+        }
+        
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .tagline {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
 <body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MF4DCD"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MF4DCD');</script>
-<!-- End Google Tag Manager -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-                <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">John Blackmore</a>
-        </div>
-
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="/about">Hire Me!</a>
-                </li>
-                <li>
-                    <a href="/blog">Blog</a>
-                </li>
-                <li>
-                    <a href="/laravel">Laravel</a>
-                </li>
-                <li>
-                    <a href="/links">Links</a>
-                </li>
-            </ul>
-        </div>
-            </div>
-    </nav>
-
-
-    <header class="intro-header" style="background-image: url('/img/headers/macbook-plant-phone.jpg')">
-    <div class="image-mask">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="page-heading">
-                        <h1>John Blackmore</h1>
-                        <hr class="small">
-                        <span class="subheading">Freelance Software and Digital Marketing Consultant. PHP Software Development. Full-time remote working in West Somerset, UK.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h2>Welcome</h2>
-<p>Hi, I'm John, although many people know me as just 'JB'. I am a <strong>TALL stack Laravel PHP developer</strong> and <strong>software development consultant</strong>, and I also take on PHP software development projects. I <strong>work remotely</strong> from my studio in West Somerset, United Kingdom.</p>
-<p>I have over 25 years of experience of building and maintaining websites and e-commerce applications, and over 15 years of commercial
-experience building web applications for a wide range of industries. I have worked with companies in their startup stage to help define their product offering and establish a product-market fit. I have also worked with growth-stage companies to review and re-architect existing systems for <em>high traffic</em> and deployment to multi-server <em>cloud infrastructures</em>.</p>
-<p>I have a keen interest in building <strong>clean code</strong> and my niche is working with legacy PHP systems, refactoring, and introducing <strong>Modern PHP</strong>. I work with a number of popular PHP Frameworks including <a href="https://laravel.com/">Laravel</a>, <a href="https://symfony.com/">Symfony</a>, and <a href="https://codeigniter.com/">CodeIgniter</a>. With my experience over the years, I am not afraid to take on projects outside of these areas, and I am happy to work on most PHP based platforms.</p>
-<p>Some of the systems I have helped design and develop include a <strong>FinTech crowdfunding platform</strong> that processed over &pound;100 million in transactions in one year and an <strong>online lettings platform</strong> that actively advertised and processed tenant enquiries for around 18,000 properties a year. I have also worked with companies to help to streamline local development, introduce <em>Continuous Integration</em> (CI) and <em>Continuous Deployment</em> (CD) pipelines, alongside <em>zero-downtime deployments</em>.</p>
-<p>I also maintain a number of digital marketing campaigns for clients, being involved in <em>Search Engine Optimisation</em> (Organic Search) and <em>Search Engine Marketing</em> (Paid Search) projects, <em>Conversion Rate Optimisation</em> (CRO), video marketing, social, local,
-mobile, display advertising and more.</p>
-<p>This site is mostly a scratchpad for my thoughts and consists primarily of links to articles and projects that I find interesting. If you have any questions please get in touch.</p>
-<p>Thanks for visiting!</p>
-<p>JB.</p>            </div>
+        <h1>John Blackmore</h1>
+        <p class="tagline">
+            Software engineer with 20+ years experience building scalable web applications in FinTech, PropTech and Insurance.
+        </p>
+        
+        <div class="interests">
+            <span>AI coding</span>
+            <span>•</span>
+            <span>Open banking</span>
+            <span>•</span>
+            <span>PHP architecture</span>
+        </div>
+        
+        <div class="links">
+            <a href="about">CV</a>
+            <a href="https://github.com/johnblackmore" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/johnblackmore" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://instagram.com/johnblackmore" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
     </div>
-
-<hr>
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="http://twitter.com/johnblackmore" class="link-twitter" title="Twitter">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://uk.linkedin.com/in/johnblackmore" class="link-linkedin" title="LinkedIn">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/johnblackmore" class="link-github" title="Github">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.google.co.uk/maps/contrib/107800284443701381974/" class="link-googlemaps" title="Google Local Guides">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; John Blackmore 2025</p>
-            </div>
-        </div>
-    </div>
-</footer>
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="/js/clean-blog.min.js"></script>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 </body>
 </html>
